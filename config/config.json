@@ -7,7 +7,7 @@
     "dialect": "mysql",
     "timestamps": false
   },
-  
+
   "test": {
     "username": "root",
     "password": null,
@@ -17,6 +17,7 @@
     "operatorsAliases": false
   },
   "production": {
+    "use_env_variable": "JAWSDB_URL",
     "username": "root",
     "password": null,
     "database": "database_production",
