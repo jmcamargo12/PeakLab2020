@@ -228,6 +228,12 @@ $(".opt3").click(function () {
   $(".modal").on("keypress", function (e) {
     return e.which !== 13;
   });
+
+  $("#exampleModal").click(function () {
+    
+     $(".modal").reload();
+  });
+
   $(".approved").click(function () {
     var valuename = $("#exampleFormControlTextarea1").val();
     localStorage.setItem("Idname", valuename);
