@@ -1,0 +1,20 @@
+{
+  "name": "pldbd",
+  "version": "1.0.0",
+  "description": "A Camargo Labeau company",
+  "main": "DBPEAKLAB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PLDBD"
+  },
+  "author": "Jonathan Manuel Camargo Labeau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.8"
+  }
+}

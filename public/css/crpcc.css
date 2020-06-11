@@ -1,0 +1,766 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#logotestpage {
+  align-items: center;
+  width: 100px;
+}
+
+#welcome {
+  margin-left: 450px;
+  margin-top: -75px;
+}
+#logotestpage:hover {
+  width: 100px;
+  cursor: pointer;
+  align-items: center;
+}
+
+#logotestpage1 {
+  width: 100px;
+}
+
+.good {
+  /* display: none; */
+}
+.empty {
+  float: left;
+  height: 100px;
+  width: 550px;
+}
+
+body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
+  width: 144px;
+}
+
+.CSP {
+  float: left;
+}
+.yellow,
+.blue,
+.red,
+.green,
+.orange,
+.purple {
+  border-radius: 99%;
+  cursor: crosshair;
+  height: 50px;
+  width: 50px;
+}
+.yellow:hover,
+.blue:hover,
+.red:hover,
+.green:hover,
+.orange:hover,
+.purple:hover {
+  border-radius: 99%;
+  border: double 4px rgb(255, 255, 255, 0.5);
+  cursor: crosshair;
+  height: 50px;
+  width: 50px;
+}
+
+.black,
+.white {
+  border-radius: 99%;
+
+  cursor: crosshair;
+  height: 75px;
+  width: 75px;
+}
+.black:hover {
+  border-radius: 99%;
+  border: double 2px rgb(255, 255, 255, 0.5);
+  cursor: crosshair;
+  height: 75px;
+  width: 75px;
+}
+.white:hover {
+  border-radius: 99%;
+  border: double 2px rgba(125, 120, 120, 0.5);
+  cursor: crosshair;
+  height: 75px;
+  width: 75px;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+.CS {
+  height: 300px;
+}
+
+#progressisreal {
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+}
+.white {
+}
+
+#progressisreal:hover {
+  color: goldenrod;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.MF {
+  background-color: rgba(248, 255, 238, 0.05);
+  border-radius: 2%;
+  float: left;
+
+  height: 250px;
+  float: left;
+}
+
+.CSP {
+  width: 175px;
+  float: left;
+}
+
+.CSP1 {
+  cursor: pointer;
+  background-image: url("Images/19841.png");
+  float: left;
+  height: 100px;
+  width: 100px;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position-x: right;
+}
+.CSP1:hover {
+  background-image: url("Images/19842.png");
+  color: black;
+  background-size: 30px 30px;
+}
+
+.colorOpt {
+  border: 1px solid rgb(142, 13, 140);
+  float: left;
+  height: 200px;
+  width: 15px;
+}
+
+#resetcopt {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.colorOpt {
+  padding: 0%;
+  border: 1px solid aqua;
+  float: left;
+  height: 200px;
+  margin-left: -14px;
+  width: 41px;
+}
+
+#C4OPT {
+  padding-right: 0%;
+  padding-left: 0;
+  float: left;
+  height: 10px;
+  width: 10px;
+  border-radius: 999%;
+  border: solid 1px rgb(0, 0, 0, 0.1);
+}
+#C4OPT:hover {
+  cursor: pointer;
+  padding-right: 0%;
+  padding-left: 0;
+  float: left;
+  height: 14px;
+  width: 14px;
+  border-radius: 17%;
+  border: double 3px rgba(250, 250, 250);
+}
+
+.col-1,
+.colorOpt {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.rcc1,
+.rcc1 {
+  height: 10px;
+}
+
+.shh {
+  float: left;
+  height: 10px;
+  width: 10px;
+  border: solid 1px rgba(2, 1, 1, 0.14);
+}
+.shh:hover {
+  float: left;
+  height: 11px;
+  width: 11px;
+  border: double 1.3px rgb(255, 0, 0, 0.2);
+}
+.okshh {
+  border-radius: 999%;
+}
+.okshh:hover {
+  border-radius: 999%;
+  float: left;
+  height: 11px;
+  width: 11px;
+  border: solid 1px #21252924;
+}
+
+.shhresult #yessir {
+  cursor: pointer;
+}
+
+#yessir:hover {
+  font-size: 50px;
+  cursor: progress;
+}
+
+.sone {
+  border: ;
+}
+
+.sony {
+  background-color: yellow;
+}
+.sony1 {
+  background-color: yellow;
+}
+.sonb {
+  background-color: blue;
+}
+.sonr {
+  background-color: red;
+}
+.song {
+  background-color: green;
+}
+.sono {
+  background-color: orange;
+}
+.sonp {
+  background-color: purple;
+}
+.sonbl {
+  background-color: rgb(15, 15, 14);
+}
+.sonw {
+  background-color: rgb(255, 255, 253);
+}
+
+.stwoy {
+  background-color: yellow;
+}
+
+#primec,
+#secondc,
+#BW {
+}
+
+#rsg {
+  margin-top: 15px;
+  font-size: small;
+}
+
+#si {
+  float: left;
+  font-size: small;
+}
+
+#gocolor {
+  visibility: hidden;
+
+  padding: none;
+  line-height: none;
+  width: 135px;
+  margin-top: -19px;
+  margin-left: -1px;
+
+  padding: 0rem 0rem;
+}
+
+#siaa {
+  float: left;
+}
+#sia {
+  float: left;
+  margin-left: 12px;
+}
+
+.jmcl2 {
+  margin-top: -219px;
+  height: 200px;
+  width: 250px;
+  float: left;
+
+  background-color: hsl(182, 99%, 49%, 0.105);
+  border-radius: 2%;
+}
+.jmcl212 {
+  scroll-behavior: smooth;
+  height: 200px;
+  width: 250px;
+  float: left;
+  margin-top: -215px;
+
+  background-color: hsl(182, 99%, 49%, 0.105);
+  border-radius: 2%;
+  overflow-y: scroll;
+}
+.jmcl2123 {
+  scroll-behavior: smooth;
+  height: 200px;
+  width: 250px;
+  float: left;
+  margin-top: -215px;
+
+  background-color: hsl(182, 99%, 49%, 0.105);
+  border-radius: 2%;
+  overflow-y: scroll;
+}
+
+.jmcl11 {
+  float: left;
+  margin-left: -23px;
+}
+
+.tinfo {
+  font-size: small;
+
+  margin-left: 150px;
+  height: 20px;
+}
+
+.tinfo:hover {
+  background-color: purple;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+}
+
+.awes {
+  text-align: end;
+}
+
+#ppson {
+  margin-top: -56px;
+  font-size: small;
+  /* font-family: bold; */
+  margin-left: 17px;
+}
+#ppson:hover {
+  margin-top: -56px;
+  font-size: small;
+  /* font-family: bold; */
+  color: teal;
+  cursor: pointer;
+  margin-left: 17px;
+}
+
+#instr {
+  background-color: rgb(153, 205, 50, 0.06);
+}
+#instra {
+  margin-left: auto;
+  margin-top: 4px;
+  background-color: rgb(153, 205, 50, 0.075);
+
+  text-align: center;
+  /* font-family: monospace; */
+  margin-left: -10px;
+}
+
+li {
+  font-size: smaller;
+}
+
+.awes1 {
+  font-size: small;
+  text-align: end;
+}
+#started1 {
+  margin-left: 122px;
+  width: 350px;
+
+  text-align: end;
+  font-size: small;
+}
+
+.tool1 {
+  border-bottom-left-radius: 45%;
+  margin-top: -45px;
+  width: 50px;
+  height: 35px;
+  background: rgb(127, 255, 212, 0.3);
+}
+.tool2 {
+  border-bottom-left-radius: 35%;
+  margin-top: -45px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(227, 255, 127, 0.3);
+}
+
+.tool3 {
+  border-top-right-radius: 55%;
+  margin-top: -45px;
+  width: 50px;
+  height: 50px;
+  border-bottom-left-radius: 45%;
+  border-bottom-left-radius: 40%;
+  background: rgb(157, 152, 152, 0.2);
+  height: 75px;
+  border: grey 8px solid 0.02;
+}
+.tool11 {
+  margin-top: -53px;
+  margin-left: 85px;
+
+  font-size: x-small;
+  border-bottom-left-radius: 45%;
+
+  width: 50px;
+  height: 35px;
+  background-color: rgb(127, 255, 212, 0.3);
+}
+
+.tool22 {
+  font-size: x-small;
+  margin-top: -45px;
+  width: 50px;
+  height: 35px;
+
+  background-color: rgb(227, 255, 127, 0.3);
+}
+.tool11:hover {
+  cursor: pointer;
+  font-size: small;
+  border-bottom-left-radius: 45%;
+  margin-top: -45px;
+  width: 50px;
+  height: 35px;
+  background-color: rgb(127, 255, 212, 0.3);
+}
+
+.tool22:hover {
+  cursor: pointer;
+  font-size: small;
+  margin-top: -45px;
+  width: 50px;
+  height: 35px;
+
+  background-color: rgb(227, 255, 127, 0.3);
+}
+
+.tool33 {
+  margin-left: 206px;
+  margin-top: -162px;
+
+  width: 50px;
+  height: 35px;
+}
+
+.pued {
+  margin-left: 145px;
+}
+
+.creg {
+  margin-top: -20px;
+  font-size: x-large;
+  margin-left: -9px;
+}
+#tiempo {
+  font-size: x-small;
+  height: 10px;
+}
+
+#colors {
+  font-size: x-small;
+  height: 10px;
+  margin-left: -10px;
+}
+#counta {
+  margin-top: -10px;
+}
+
+#colorsa {
+  margin-left: -29px;
+  margin-top: 76px;
+  width: 150px;
+  font-size: 14px;
+  font-family: inherit;
+  color: BLUE;
+  height: 10px;
+  margin-left: -22px;
+}
+#colorsa2 {
+  margin-top: 122px;
+
+  margin-left: -29px;
+
+  width: 150px;
+  font-size: 14px;
+  font-family: inherit;
+  color: BLUE;
+  height: 10px;
+  margin-left: 10px;
+}
+#colorsa3 {
+  margin-left: -65px;
+  margin-top: 126px;
+  font-size: small;
+
+  width: 200px;
+
+  font-family: inherit;
+  color: BLUE;
+  height: 10px;
+  margin-left: 10px;
+}
+
+#counta {
+  margin-top: -10px;
+}
+#colorsa:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: medium;
+}
+#counta {
+  margin-top: -10px;
+}
+
+.clicks1 {
+  font-size: 7px;
+  width: 100px;
+  margin-left: -12px;
+}
+
+.colorchoice {
+  border-top-right-radius: 15%;
+  margin-left: 25px;
+  margin-top: -10px;
+  height: 70px;
+  width: 70px;
+  border: 9px solid white;
+  border-radius: 5%;
+}
+
+.tool4 {
+  font-size: SMALL;
+  visibility: hidden;
+  border-radius: 9%;
+
+  margin-top: -50px;
+  height: 35px;
+  /* background: aqua; */
+  margin-left: 519px;
+  width: 400px;
+}
+.tool44 {
+  height: 100px;
+  font-size: smaller;
+  font-style: bold;
+  margin-left: 325px;
+  margin-top: -159px;
+  font-family: sans-serif;
+  color: blue;
+
+  cursor: pointer;
+}
+
+.offset-3 {
+  margin-left: 115px;
+}
+
+#cool1 {
+  text-align: end;
+  width: 250px;
+  font-size: x-large;
+  margin-top: -13px;
+  margin-left: 121px;
+  border-radius: 15%;
+  border: 15px solid white;
+  background-color: hsl(60, 71%, 84%, 0.3);
+}
+
+#cool {
+  height: 200px;
+  margin-top: 1px;
+}
+
+body
+  > div
+  > div:nth-child(4)
+  > div.DCRDCS
+  > div
+  > div.row.col-6.pued
+  > div.col-2.offset-2.tool11 {
+  margin-top: -120px;
+}
+#distm {
+  font-size: 14.7px;
+  margin-top: -30px;
+  margin-left: 40px;
+}
+
+.distp {
+  width: 140px;
+  margin-top: -25px;
+  margin-left: -100px;
+}
+#drole {
+  background-color: hsl(300, 76%, 72%, 0.093);
+  list-style-type: none;
+}
+#drole:hover {
+  cursor: pointer;
+  border: 5px solid white;
+  background-color: hsl(300, 76%, 72%, 0.456789);
+  list-style-type: none;
+}
+
+#typed {
+  scroll-behavior: smooth;
+  height: 175px;
+  border-radius: 4%;
+  text-align: justify;
+  overflow-y: scroll;
+  font-size: 16px;
+
+  background: cornsilk;
+  border: 12px solid white;
+
+  /* margin-top: -101px;
+  margin-left: 8px;
+
+  */
+  height: 200px;
+  margin-top: 2px;
+  margin-left: -20px;
+  width: 350px;
+}
+#typed2 {
+  scroll-behavior: smooth;
+  height: 175px;
+  border-radius: 4%;
+  text-align: justify;
+  overflow-y: scroll;
+  font-size: 14px;
+
+  background: rgb(255, 248, 220, 0.3);
+  border: 12px solid white;
+}
+#typed333 {
+  scroll-behavior: smooth;
+  height: 175px;
+  border-radius: 4%;
+  text-align: justify;
+  overflow-y: scroll;
+  font-size: 14px;
+
+  background: rgb(255, 248, 220, 0.3);
+  border: 12px solid white;
+}
+
+#proc9 {
+  /* margin-top: 112px; */
+  float: left;
+  margin-left: 14px;
+}
+
+body
+  > div
+  > div:nth-child(4)
+  > div.DCRDCS
+  > div
+  > div.row.col-6.pued
+  > div.col-2.offset-2.tool11 {
+  margin-top: -53px;
+}
+
+.distribution {
+  width: 400px;
+}
+
+#started > div.row.jmcl2.wapapa {
+  margin-left: 135px;
+}
+#started111 {
+  margin-left: 130px;
+}
+.maind9 {
+  margin-top: -42px;
+}
+
+#Info1 {
+  cursor: pointer;
+}
+#Info2 {
+  cursor: pointer;
+}
+
+#InfoMD,
+#InfoMMM,
+#InfoUH,
+#InfoUHH1,
+#InfoUHH2,
+#InfoDH,
+#InfoDHH1,
+#InfoDHH2,
+#InfoLMD,
+#InfoLMD1,
+#InfoBLE,
+#InfoMHD,
+#InfoMHD3,
+#InfoMHD22,
+#InfoBL,
+#InfoEXT,
+#InfoH,
+#InfoULM2,
+#InfoMDL {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#InfoMD:hover,
+#InfoMMM:hover,
+#InfoUH:hover,
+#InfoUHH1:hover,
+#InfoUHH2:hover,
+#InfoDH:hover,
+#InfoDHH1:hover,
+#InfoDHH2:hover,
+#InfoLMD:hover,
+#InfoLMD1:hover,
+#InfoBLE:hover,
+#InfoMHD:hover,
+#InfoMHD3:hover,
+#InfoMHD22:hover,
+#InfoBL:hover,
+#InfoEXT:hover,
+#InfoH:hover,
+#InfoULM2:hover,
+#InfoMDL:hover {
+  font-size: 14px;
+}
+
+/* //The Pascal Flux Capacitor 4T9+// */

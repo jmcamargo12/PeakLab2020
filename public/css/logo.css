@@ -1,0 +1,31 @@
+body {
+  background-image: url(Images/points.gif);
+}
+
+.golazo9 {
+  width: 36%;
+  background-image: url(Images/points.gif);
+}
+.golazo9:hover {
+  cursor: pointer;
+  filter: invert(1);
+
+  width: 100px;
+  border-radius: 99%;
+  background-image: url(Images/points.gif);
+}
+
+.wewon9 {
+  background-image: url(Images/points.gif);
+}
+
+body > div > div > div.col-sm.golazo9 > img {
+  background-image: url(Images/points.gif);
+}
+
+.founder {
+  color: white;
+  float: right;
+  background: #0f0ff6;
+  font-family: MONOSPACE;
+}
