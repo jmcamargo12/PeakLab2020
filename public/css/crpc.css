@@ -139,8 +139,16 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
   float: left;
 }
 
+
+
 .container {
   height: 500px;
+  padding: 0.5px;
+}
+
+.container:hover {
+  height: 500px;
+  padding: 0px;
 }
 
 .CSP {
@@ -284,6 +292,7 @@ body > div > div:nth-child(4) > div {
 }
 
 #rsg {
+      color: white;
   margin-top: 15px;
   font-size: small;
 }

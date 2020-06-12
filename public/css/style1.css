@@ -1374,6 +1374,13 @@ tt {
   border-radius: 12%;
   height: 219.71px;
 }
+.central3:hover {
+  /* background-image: url(https://i.gifer.com/4Cb3.gif); */
+  /* background: rgb(255, 255, 255, 0.6); */
+  cursor: pointer;
+  border-radius: 12%;
+  height: 219.71px;
+}
 .central4 {
   border-radius: 12%;
   height: 325px;

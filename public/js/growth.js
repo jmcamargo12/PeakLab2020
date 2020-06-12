@@ -1360,7 +1360,180 @@ $(".opt3").click(function () {
     var aValue = localStorage.getItem("Idname");
     var eValue = localStorage.getItem("Email");
 
+
+
     $(".tt").replaceWith(Dyno2);
+
+      $(".tot").remove();
+      $(".tat").remove();
+      $(".tit").remove();
+      $(".tut").remove();
+      $(".tet").remove();
+      console.log("something");
+
+      if (shapeSelected == null) {
+        $(".listorder").append(
+          "<div class='tit'><div><h6>You Choosen nothing yet</6></div><div><p>To get data results, go to the Dynamism section, follow the instructions and begin the interactive experience</p></div></div>"
+        );
+      } else {
+        $(".listorder").append(
+          "<div class='tat'><h6>Simply Explained</h6></div><div><p class='tot' id='ttt'>During your dynamic interaction, you engaged in several selections. You chose the " +
+            shapeSelected +
+            " object.</p></div>"
+        );
+      }
+
+      if (colorSelected == null) {
+        $("#null2").remove();
+      } else {
+        $(".tot").append(" Made your Shape  " + colorSelected + ".");
+      }
+
+      if (backgroundSelected == null) {
+        $("#null3").remove();
+      } else {
+        $(".tot").append(
+          " Your Background color was " + backgroundSelected + "."
+        );
+      }
+
+      if (shapeAnimationSelected == null) {
+        $("#null4").remove();
+      } else {
+        $(".tot").append(
+          " Ohh and cool, you got fancy and Animated your " +
+            shapeSelected +
+            "."
+        );
+      }
+      if (backAnimation == null) {
+        $("#null5").remove();
+      } else {
+        $(".tot").append(
+          " Additionally, you Animated the background aswell, nice!."
+        );
+      }
+      if (buttonUp == null) {
+        $("#null6").remove();
+      } else {
+        $(".tot").append(
+          " On the active side of things, you selected to add an UP control button."
+        );
+      }
+      if (upCounter == null) {
+        $("#null15").remove();
+      } else {
+        $(".tot").append(" Clicking UP, " + upCounter + " times.");
+      }
+      if (buttonDown == null) {
+        $("#null7").remove();
+      } else {
+        $(".tot").append(" Also adding a DOWN control button.");
+      }
+      if (downCounter == null) {
+        $("#null16").remove();
+      } else {
+        $(".tot").append(
+          " This Down motion Icon was clicked " + downCounter + " times."
+        );
+      }
+      if (buttonLeft == null) {
+        $("#null8").remove();
+      } else {
+        $(".tot").append(" You integrated an additional LEFT control button.");
+      }
+      if (leftCounter == null) {
+        $("#null17").remove();
+      } else {
+        $(".tot").append(
+          "  And clicked Left a total of " + leftCounter + " times."
+        );
+      }
+      if (buttonRight == null) {
+        $("#null9").remove();
+      } else {
+        $(".tot").append(" Also adding a RIGHT handle icon.");
+      }
+      if (rightCounter == null) {
+        $("#null18").remove();
+      } else {
+        $(".tot").append(
+          "   Which you activated " +
+            rightCounter +
+            " times in the rightward direction, creating more motion the interactive process"
+        );
+      }
+      if (buttonRotate == null) {
+        $("#null10").remove();
+      } else {
+        $(".tot").append(
+          " <br></br> <p class ='tyt' id='ttt'> Another feature which gave action to your object was the ROTATION option.</p>"
+        );
+      }
+      if (rotateCounter == null) {
+        $("#null19").remove();
+      } else {
+        $("#ttt").append(
+          " Which you used to Rotate the " +
+            shapeSelected +
+            " " +
+            rotateCounter +
+            " times."
+        );
+      }
+      if (buttonInvisibility == null) {
+        $("#null11").remove();
+      } else {
+        $("#ttt").append("Then, adding an Invisibility button.");
+      }
+      if (invisibilityCounter == null) {
+        $("#null20").remove();
+      } else {
+        $("#ttt").append(
+          " You attempted dissapearing the shape " +
+            invisibilityCounter +
+            " times."
+        );
+      }
+
+      if (buttonVisibility == null) {
+        $("#null12").remove();
+      } else {
+        $("#ttt").append("");
+      }
+      if (visibilityCounter == null) {
+        $("#null21").remove();
+      } else {
+        $("#ttt").append(
+          " And tried reappearing your " +
+            shapeSelected +
+            " " +
+            visibilityCounter +
+            " times."
+        );
+      }
+
+      if (shrinkCounter == null) {
+        $("#null22").remove();
+      } else {
+        $("#ttt").append(
+          " Tried shrinking your image " + shrinkCounter + " times."
+        );
+      }
+
+      if (growCounter == null) {
+        $("#null23").remove();
+      } else {
+        $("#ttt").append(
+          " And attempted expanding the shape " + growCounter + " times."
+        );
+      }
+
+      $("#ttt").append(
+        "<br></br><div class='resultsTime'><h6>Now that you know exactly what you did, let us show you what we can do with your Selections. Go to the Results Section and Enjoy the personalized experience!</h6></div>"
+      );
+ 
+
     $(".firstdata").click(function () {
       colorSelected = localStorage.getItem("Shape-Color-Selected");
       backgroundSelected = localStorage.getItem("Background-Color-Selected");
@@ -1699,10 +1872,10 @@ $(".opt3").click(function () {
 
     $("#opt55").click(function () {
       $(".yy").replaceWith(Dyno3);
-         $("#headingOne > h6").replaceWith("YOUR FLOW CHARTS");
-    $(".card-body").replaceWith(
-      "<div class='card-body'><h5 class='card-title'>Select your path!</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'> Click on your shape until new color or shape options show up, select a path and see your unique results</h3></div>"
-    );
+      $("#headingOne > h6").replaceWith("YOUR FLOW CHARTS");
+      $(".card-body").replaceWith(
+        "<div class='card-body'><h5 class='card-title'>Select your path!</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'> Click on your shape until new color or shape options show up, select a path and see your unique results</h3></div>"
+      );
       $(".listpicture").replaceWith(
         "<div class='col-4 midrightr listorder2 listpicture'><h1 id='cleared49'>Whats going on?</h1></div>"
       );

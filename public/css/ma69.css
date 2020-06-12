@@ -664,6 +664,7 @@ body > div > div.col-12.T4T9 > div.col-5.midq2 {
 }
 
 .container {
+  padding: 0.5px;
   height: 525px;
 }
 
@@ -671,4 +672,8 @@ body > div > div.col-12.T4T9 > div.col-5.midq2 {
   margin-top: -262px;
   margin-left: 235px;
   width: 173px;
+}
+
+.container:hover {
+  padding: 0px;
 }
