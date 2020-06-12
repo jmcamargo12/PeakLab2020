@@ -70,7 +70,7 @@ $("#tourOptionTwo,#tourOptionTwo2 ").click(function () {
   $("#this").replaceWith($("<p class='gotit' id='this'>SECOND Step</p>"));
   $("#that").replaceWith(
     $(
-      "<p class='gotit' id='that' ><span id='we'> we </span><span id='gather'> analize potential </span><span id='your'> & discover new</span><span id='info'> operational values</p>"
+      "<p class='gotit' id='that' ><span id='we'> we </span><span id='gather'> analyze potential </span><span id='your'> & discover new</span><span id='info'> operational values</p>"
     )
   );
   $(".right").replaceWith("<img id='dos' src='Images/source22222.gif'>");
@@ -166,7 +166,7 @@ $(".opt2").click(function () {
   );
   $(".design99").click(function () {
     $("#content1").replaceWith(
-      "<div class='row Spec5 tt id='specs'><img  src='Images/originalart.gif' style='width:100%'></div>"
+      "<div class='row Spec5 id='specs'><img  src='Images/originalart.gif' style='width:100%'></div>"
     );
 
     $(".yayalopapa").replaceWith(
@@ -225,13 +225,16 @@ var Dyno =
 $(".opt3").click(function () {
   $(".qw").replaceWith(Dyno);
 
+  $("#headingOne > h6").replaceWith("DYNAMIC POTENTIAL TOUR");
+  $(".card-body").replaceWith(
+    "<div class='card-body'><h5 class='card-title'>READY TO HAVE SOME FUN?</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>Select a Shape from the menu options (Circle, Square or Triangle) on the panel grid to the right,  add features, like control buttons and colors, etc. Once your done go to the Data section where you will get your first results.</h3></div>");
+
   $(".modal").on("keypress", function (e) {
     return e.which !== 13;
   });
 
   $("#exampleModal").click(function () {
-    
-     $(".modal").reload();
+    $(".modal").reload();
   });
 
   $(".approved").click(function () {
@@ -1251,6 +1254,11 @@ $(".opt3").click(function () {
   // var growCounter = localStorage.getItem("Grow-Button-Counter");
 
   $("#opt44").click(function () {
+    
+  $("#headingOne > h6").replaceWith("INITIAL DATA RETURN");
+  $(".card-body").replaceWith(
+    "<div class='card-body'><h5 class='card-title'>YOUR PRELIMINARY DATA IS READY </h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>See the things you did by selecting the list or simplified option, and then go to the RESULTS area to enjoy your personalized experience!</h3></div>"
+  );
     var colorSelected = localStorage.getItem("Shape-Color-Selected");
     var backgroundSelected = localStorage.getItem("Background-Color-Selected");
     var shapeSelected = localStorage.getItem("Shape-Selected");

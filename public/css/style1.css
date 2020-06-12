@@ -147,6 +147,10 @@ body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
   display: none;
 }
 
+
+.tt{filter: blur(5px);}
+.tt:hover{filter:none}
+
 #flipa:hover,
 #flip:hover {
   cursor: pointer;
