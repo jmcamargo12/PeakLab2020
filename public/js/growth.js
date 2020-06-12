@@ -156,7 +156,7 @@ $(document).ready(function () {
 $(".opt2").click(function () {
   $(".Spec5").replaceWith("<img id='content1' src='Images/content.gif'>");
   $("#panel > div > div.col-7.qw > div.col-12").replaceWith(
-    "<div class='col-12 yayalopapa'><p id='hseis'> Our Programing team gathers the artframe diagrams and envisions the content potential. Combining efficient impplementation with quality content, our proven method of growth is supported by the reaplicative cycle of results within improvement.</p></div>"
+    "<div class='col-12 yayalopapa'><p id='hseis'> Our Programing team gathers the artframe diagrams and envisions the content potential. Combining efficient implementation with quality content, our proven method of growth is supported by the reaplicative cycle of results within improvement.</p></div>"
   );
 
   $("#content99").replaceWith("<p id='content99'>CONTENT</p>");
@@ -227,7 +227,8 @@ $(".opt3").click(function () {
 
   $("#headingOne > h6").replaceWith("DYNAMIC POTENTIAL TOUR");
   $(".card-body").replaceWith(
-    "<div class='card-body'><h5 class='card-title'>READY TO HAVE SOME FUN?</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>Select a Shape from the menu options (Circle, Square or Triangle) on the panel grid to the right,  add features, like control buttons and colors, etc. Once your done go to the Data section where you will get your first results.</h3></div>");
+    "<div class='card-body'><h5 class='card-title'>READY TO HAVE SOME FUN?</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>Select a Shape from the menu options (Circle, Square or Triangle) on the panel grid to the right,  add features, like control buttons and colors, etc. Once you're done go to the Data section where you will get your first results.</h3></div>"
+  );
 
   $(".modal").on("keypress", function (e) {
     return e.which !== 13;
@@ -1254,11 +1255,10 @@ $(".opt3").click(function () {
   // var growCounter = localStorage.getItem("Grow-Button-Counter");
 
   $("#opt44").click(function () {
-    
-  $("#headingOne > h6").replaceWith("INITIAL DATA RETURN");
-  $(".card-body").replaceWith(
-    "<div class='card-body'><h5 class='card-title'>YOUR PRELIMINARY DATA IS READY </h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>See the things you did by selecting the list or simplified option, and then go to the RESULTS area to enjoy your personalized experience!</h3></div>"
-  );
+    $("#headingOne > h6").replaceWith("INITIAL DATA RETURN");
+    $(".card-body").replaceWith(
+      "<div class='card-body'><h5 class='card-title'>YOUR PRELIMINARY DATA IS READY </h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'>See the things you did by selecting the list or simplified option, and then go to the RESULTS area to enjoy your personalized experience!</h3></div>"
+    );
     var colorSelected = localStorage.getItem("Shape-Color-Selected");
     var backgroundSelected = localStorage.getItem("Background-Color-Selected");
     var shapeSelected = localStorage.getItem("Shape-Selected");
@@ -1699,6 +1699,10 @@ $(".opt3").click(function () {
 
     $("#opt55").click(function () {
       $(".yy").replaceWith(Dyno3);
+         $("#headingOne > h6").replaceWith("YOUR FLOW CHARTS");
+    $(".card-body").replaceWith(
+      "<div class='card-body'><h5 class='card-title'>Select your path!</h5><h6 class='card-subtitle mb-2 text-muted'></h6><h3 class='card-text'> Click on your shape until new color or shape options show up, select a path and see your unique results</h3></div>"
+    );
       $(".listpicture").replaceWith(
         "<div class='col-4 midrightr listorder2 listpicture'><h1 id='cleared49'>Whats going on?</h1></div>"
       );

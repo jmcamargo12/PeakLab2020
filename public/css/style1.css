@@ -19,6 +19,10 @@ body {
   margin-top: -25px;
 }
 
+#ttt {
+  text-align: end;
+}
+
 .ta {
   color: lightgoldenrodyellow;
 }
@@ -147,9 +151,12 @@ body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
   display: none;
 }
 
-
-.tt{filter: blur(5px);}
-.tt:hover{filter:none}
+.tt {
+  filter: blur(5px);
+}
+.tt:hover {
+  filter: none;
+}
 
 #flipa:hover,
 #flip:hover {
@@ -1023,7 +1030,7 @@ tt {
   height: 250px;
   overflow-y: scroll;
   font-size: x-large;
-  order-radius: 9%;
+  border-radius: 9%;
 }
 .listorder::-webkit-scrollbar {
   display: none;
@@ -1349,7 +1356,12 @@ tt {
   background-color: hsl(70, 86%, 41%);
 }
 
+#collapseOne > div > div > h5 {
+  color: yellowgreen;
+}
+
 .datahappy {
+  filter: invert(1);
   height: 196.66px;
 }
 
@@ -1358,6 +1370,7 @@ tt {
 }
 
 .central3 {
+  cursor: pointer;
   border-radius: 12%;
   height: 219.71px;
 }
@@ -1367,10 +1380,14 @@ tt {
 }
 
 .squareactivity {
+  cursor: pointer;
+
   height: 325px;
   width: 325px;
 }
 .triangleactivity {
+  cursor: pointer;
+
   height: 325px;
   width: 325px;
 }
@@ -1413,7 +1430,8 @@ tt {
 }
 
 .infoarea2 {
-  color: black;
+  color: white;
+
   text-align: justify;
 }
 
@@ -3037,4 +3055,8 @@ tt {
 
 #collapseOne > div > div > h3 {
   font-size: large;
+}
+
+.switch {
+  height: 520px;
 }

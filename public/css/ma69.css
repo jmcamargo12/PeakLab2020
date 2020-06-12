@@ -78,6 +78,7 @@ html {
 
 .midq2 {
   border-top-right-radius: 95%;
+
   border-radius: 2%;
   float: left;
   height: 235px;
@@ -463,11 +464,14 @@ body > div > div:nth-child(4) > div.good > a {
   visibility: hidden;
 }
 .inner9 {
+  padding: 17px;
   height: 300px;
   margin-top: 40px;
-  margin-left: -84px;
-  background-color: rgb(255, 248, 220, 0.4);
+  margin-left: -45px;
+  /* background-color: rgb(255, 248, 220, 0.4); */
   border: 10px solid white;
+  border-radius: 9%;
+  width: 246px;
 }
 
 .inner99 {
@@ -605,4 +609,66 @@ body
 
 #yingyang2 {
   text-align: right;
+}
+
+body > div > div:nth-child(4) {
+  color: white;
+}
+
+body > div {
+  color: white;
+}
+
+.leftq12 {
+  color: white;
+  background: black;
+}
+
+#welcome {
+  font-family: monospace;
+}
+
+body > div > div.row.a {
+  background-color: transparent;
+}
+
+body > div > hr {
+  margin-top: 25px;
+  background-color: yellowgreen;
+}
+
+.hdog {
+  background: black;
+}
+
+body > div > div.col-12.T4T9 > div.col-5.midq2 {
+  width: 397px;
+  margin-left: 9px;
+  background: #ffffffc9;
+}
+
+.growth9 {
+  margin-left: 44px;
+}
+
+.rest1 {
+  background: black;
+}
+
+.inner99::-webkit-scrollbar {
+  display: none;
+}
+
+.inner99 {
+  background: black;
+}
+
+.container {
+  height: 525px;
+}
+
+#progressisreal2 {
+  margin-top: -262px;
+  margin-left: 235px;
+  width: 173px;
 }

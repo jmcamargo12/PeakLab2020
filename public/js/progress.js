@@ -2602,7 +2602,7 @@ $("#progressisreal").ready(function () {
           Counter = false;
 
           console.log(Counter);
-          $(".MF").css("background-color", "white");
+          $(".MF").css("background-color", "transparents");
 
           $("#started1").replaceWith(
             "<div class= 'col-12 jmcl11' ><div class='row jmcl2 distribution'><h6 id='instra'></h6><p id='cool1'> Thanks for participating in the CRPC experience.</p></div></div><div class='row col-6 pued'><div class='col-2 tool33'><p id='colorsa'>See Your Results</p></div></div></div>"
