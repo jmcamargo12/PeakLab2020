@@ -53,10 +53,9 @@ body {
   box-sizing: border-box;
 } */
 .container {
-  background-color: rgb(65, 60, 60, 0.38);
-  border: 4px double rgb(154, 250, 154, 0.7);
-  border-radius: 50%;
-  padding: 0;
+  background-color: rgba(65, 60, 60, 0.44);
+
+  border-radius: 45%;
 }
 
 #panel

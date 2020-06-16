@@ -141,15 +141,7 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
 
 
 
-.container {
-  height: 500px;
-  padding: 3px;
-}
 
-.container:hover {
-  height: 500px;
-  padding: 0px;
-}
 
 .CSP {
   width: 175px;
