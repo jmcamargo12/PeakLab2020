@@ -794,6 +794,12 @@ tt {
 .card-body {
   background: black;
 }
+.card-body:hover {
+  background-color: wheat;
+  text-align: end;
+
+  background: black;
+}
 .buttonsarea2 {
   border-bottom-right-radius: 200%;
   border-bottom-left-radius: 200%;

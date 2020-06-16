@@ -53,6 +53,10 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
   width: 144px;
 }
 
+.DCRDCS {
+  color: white;
+}
+
 .CSP {
   float: left;
 }
