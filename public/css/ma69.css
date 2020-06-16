@@ -77,13 +77,13 @@ html {
 }
 
 .midq2 {
+  background-color: #69696963;
   border-top-right-radius: 95%;
 
   border-radius: 2%;
   float: left;
   height: 235px;
 
-  background: rgb(240, 248, 255, 0.9);
   margin-top: -30px;
 }
 
@@ -110,11 +110,13 @@ html {
 }
 
 #theImg {
+  filter: invert(1);
   margin-top: -238px;
   overflow: auto;
   margin-left: 23px;
 }
 #theImg2 {
+  filter: invert(1);
   border-radius: 2%;
   border: 2px solid rgb(0, 0, 0, 0.08);
 
@@ -579,6 +581,9 @@ body
   font-size: 23px;
 }
 
+.wawa {
+  filter: drop-shadow();
+}
 .wuh9n {
   background-color: rgba(255, 255, 0, 0.09);
   border-bottom-right-radius: 100%;
@@ -644,7 +649,6 @@ body > div > hr {
 body > div > div.col-12.T4T9 > div.col-5.midq2 {
   width: 397px;
   margin-left: 9px;
-  background: #ffffffc9;
 }
 
 .growth9 {
@@ -663,17 +667,8 @@ body > div > div.col-12.T4T9 > div.col-5.midq2 {
   background: black;
 }
 
-.container {
-  padding: 0.5px;
-  height: 525px;
-}
-
 #progressisreal2 {
   margin-top: -262px;
   margin-left: 235px;
   width: 173px;
-}
-
-.container:hover {
-  padding: 0px;
 }
