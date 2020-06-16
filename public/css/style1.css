@@ -47,15 +47,15 @@ body {
   padding-top: 0;
 } */
 
-.container {
+/* .container {
   padding: 0.5px;
   border-radius: 1%;
   box-sizing: border-box;
-}
-.container:hover {
+} */
+.container {
   background-color: rgb(65, 60, 60, 0.38);
-  border: 0.5px solid rgb(154, 250, 154, 0.7);
-  border-radius: 12%;
+  border: 4px double rgb(154, 250, 154, 0.7);
+  border-radius: 50%;
   padding: 0;
 }
 
