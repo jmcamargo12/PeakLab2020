@@ -19,17 +19,16 @@ body > div > div:nth-child(4) > hr {
   background: white;
 }
 
+.DCRDCS {
+  margin-top: -64px;
+}
+
 #welcome {
   text-align: center;
   color: white;
   font-family: monospace;
   margin-left: 450px;
   margin-top: -75px;
-}
-#logotestpage:hover {
-  width: 100px;
-  cursor: pointer;
-  align-items: center;
 }
 
 #logotestpage1 {
@@ -125,6 +124,8 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
   background-color: purple;
 }
 .CS {
+  margin-top: 55px;
+
   height: 300px;
 }
 
@@ -146,7 +147,7 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
 }
 
 .MF {
-  background-color: none;
+  background-color: transparent;
   border-radius: 2%;
   float: left;
 
@@ -187,7 +188,7 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF {
   background-color: transparent;
 }
 
-.container {
+/* .container {
   height: 500px;
   padding: 0.5px;
 }
@@ -195,7 +196,7 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF {
 .container:hover {
   height: 500px;
   padding: 0px;
-}
+} */
 
 #resetcopt {
   font-size: 14px;
@@ -382,7 +383,8 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF {
 }
 
 .tinfo {
-  font-size: small;
+  font-family: monospace;
+  font-size: large;
 
   margin-left: 150px;
   height: 20px;
@@ -685,9 +687,6 @@ body
   overflow-y: scroll;
   font-size: 16px;
 
-  background: cornsilk;
-  border: 12px solid white;
-
   /* margin-top: -101px;
   margin-left: 8px;
 
@@ -698,26 +697,35 @@ body
   width: 350px;
 }
 #typed2 {
+  font-family: monospace;
+  text-align: end;
+  font-size: xx-large;
   scroll-behavior: smooth;
   height: 175px;
   border-radius: 4%;
-  text-align: justify;
+
   overflow-y: scroll;
   font-size: 14px;
+}
 
-  background: rgb(255, 248, 220, 0.3);
-  border: 12px solid white;
+#typed1::-webkit-scrollbar {
+  display: none;
+}
+#typed2::-webkit-scrollbar {
+  display: none;
+}
+#typed333::-webkit-scrollbar {
+  display: none;
 }
 #typed333 {
+  font-family: monospace;
+  text-align: end;
+  font-size: xx-large;
   scroll-behavior: smooth;
   height: 175px;
   border-radius: 4%;
-  text-align: justify;
-  overflow-y: scroll;
-  font-size: 14px;
 
-  background: rgb(255, 248, 220, 0.3);
-  border: 12px solid white;
+  overflow-y: scroll;
 }
 
 #proc9 {
