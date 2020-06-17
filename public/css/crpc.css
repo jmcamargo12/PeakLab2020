@@ -144,11 +144,13 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
 
 
 .CSP {
+  margin-left: -38px;
   width: 175px;
   float: left;
 }
 
 .CSP1 {
+  margin-left: 190px;
   cursor: pointer;
   background-image: url("Images/19841.png");
   float: left;
@@ -160,10 +162,13 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
   background-position-x: right;
 }
 .CSP1:hover {
+  margin-left: 190px;
   background-image: url("Images/19842.png");
   color: black;
   background-size: 30px 30px;
 }
+
+body > div.container > div:nth-child(4) > div > div > div.row.col-5.pued{margin-left:-37px}
 
 .colorOpt {
   border: 1px solid rgb(142, 13, 140);
@@ -314,7 +319,10 @@ body > div > div:nth-child(4) > div {
   margin-left: 12px;
 }
 
+#started1 > div{   margin-left: -57px;}
+
 .jmcl2 {
+   
   margin-top: -219px;
   height: 200px;
   width: 250px;
@@ -731,6 +739,8 @@ body
 .distribution {
   width: 400px;
 }
+
+
 
 #started > div.row.jmcl2.wapapa {
   margin-left: 135px;

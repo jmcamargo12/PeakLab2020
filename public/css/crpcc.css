@@ -124,6 +124,7 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
   background-color: purple;
 }
 .CS {
+  margin-left: -38px;
   margin-top: 55px;
 
   height: 300px;
@@ -161,6 +162,7 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
 }
 
 .CSP1 {
+  margin-left: 190px;
   cursor: pointer;
   background-image: url("Images/19841.png");
   float: left;
@@ -172,6 +174,7 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
   background-position-x: right;
 }
 .CSP1:hover {
+  margin-left: 190px;
   background-image: url("Images/19842.png");
   color: black;
   background-size: 30px 30px;
@@ -182,6 +185,10 @@ body > div > div:nth-child(4) > div.DCRDCS > div > div.col-2.CSP {
   float: left;
   height: 200px;
   width: 15px;
+}
+
+body > div.container > div:nth-child(4) > div > div > div.row.col-5.pued {
+  margin-left: -37px;
 }
 
 body > div > div:nth-child(4) > div > div > div.col-6.MF {
@@ -343,6 +350,10 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF {
 #sia {
   float: left;
   margin-left: 12px;
+}
+
+#started1 > div {
+  margin-left: -57px;
 }
 
 .jmcl2 {
