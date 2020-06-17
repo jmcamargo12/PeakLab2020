@@ -12,15 +12,15 @@ body {
 }
 
 body > div.container > div.row.a {
-  margin-top: 29px;
-  height: 93px;
+  margin-top: 68px;
+  height: 55px;
 }
 
 .logo {
   filter: drop-shadow(4px 6px 3px black);
-  margin-top: 14px;
-  margin-left: 56px;
-  width: 140px;
+  margin-top: -5px;
+  margin-left: -86px;
+  width: 164px;
 }
 
 .b {
@@ -61,7 +61,7 @@ body > div.container > div.row.a {
   box-sizing: border-box;
 } */
 .container {
-  background-color: rgba(65, 60, 60, 0.41);
+  background-color: rgba(48, 167, 231, 0.09);
   border-radius: 1%;
   border-top-right-radius: 6%;
 }
@@ -102,8 +102,8 @@ body > div.container > div.row.a > div.col-sm-3.slogan > div {
   border-bottom-right-radius: 70%;
   background-color: hsl(80, 61%, 50%, 0.03);
   height: 70%;
-  margin-left: 33px;
-  margin-top: -45px;
+  margin-left: -68px;
+  margin-top: -19px;
 }
 
 #mbar1 {
@@ -123,16 +123,16 @@ body > div.container > div.row.a > div.col-sm-3.slogan > div {
 }
 body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
   font-size: 14px;
-  margin-left: 976px;
+  margin-left: 1094px;
   font-family: monospace;
-  margin-top: 27px;
+  margin-top: -111px;
   width: 500px;
   color: white;
 }
 
 #flipa {
   margin-left: 229px;
-  margin-top: -58px;
+  margin-top: -46px;
   font-family: "Raleway", sans-serif;
   padding: 5px;
   text-align: left;
