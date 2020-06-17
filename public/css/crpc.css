@@ -1,5 +1,9 @@
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.95);
+  background-image: url(https://www.transparenttextures.com/patterns/bright-squares.png);
+  /* filter: drop-shadow(102px 135px 45px black); */
+  filter: drop-shadow(91px 86px 42px black);
+  background-color: rgb(0, 0, 0);
 }
 
 html {
@@ -105,6 +109,9 @@ body > div > div.row.a {
   background-color: purple;
 }
 .CS {
+  
+    
+
       margin-top: 55px;
 
   height: 300px;
@@ -139,6 +146,14 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
   float: left;
 }
 
+#started1 > div {
+     margin-left: -213px;
+}
+
+body > div.container > div:nth-child(4) > div > div > div.col-12.jmcl11 > div {
+  margin-left: -187px;
+}
+
 
 
 
@@ -150,7 +165,7 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
 }
 
 .CSP1 {
-  margin-left: 190px;
+
   cursor: pointer;
   background-image: url("Images/19841.png");
   float: left;
@@ -162,7 +177,7 @@ body > div > div:nth-child(4) > div > div > div.col-6.MF{background-color: trans
   background-position-x: right;
 }
 .CSP1:hover {
-  margin-left: 190px;
+ 
   background-image: url("Images/19842.png");
   color: black;
   background-size: 30px 30px;
@@ -319,7 +334,10 @@ body > div > div:nth-child(4) > div {
   margin-left: 12px;
 }
 
-#started1 > div{   margin-left: -57px;}
+.wapapa {
+  background-color: #000000c9;
+}
+
 
 .jmcl2 {
    
@@ -327,8 +345,7 @@ body > div > div:nth-child(4) > div {
   height: 200px;
   width: 250px;
   float: left;
-
-  background-color: hsl(182, 99%, 49%, 0.105);
+    
   border-radius: 2%;
 }
 .jmcl212 {
@@ -489,7 +506,7 @@ li {
 }
 
 .tool33 {
-  margin-left: 206px;
+      margin-left: 55px;
   margin-top: -162px;
 
   width: 50px;
@@ -520,7 +537,8 @@ li {
 }
 
 #colorsa {
-  margin-left: -29px;
+  margin-left: -135px;
+
   margin-top: 76px;
   width: 150px;
   font-size: 14px;
