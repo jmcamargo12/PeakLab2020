@@ -332,7 +332,7 @@ $("#progressisreal").ready(function () {
     //   data: todo,
     // });
     $(".CSP").replaceWith(
-      "<div class='col-2 CSP1'><div class='row jmcl'><H6 id ='resetcopt'>RESET COLOR GRID<H6></div></div>"
+      "<div class='col CSP1'><div class='row jmcl'><H6 id ='resetcopt'>RESET COLOR GRID<H6></div></div>"
     );
     $(".CS").append(
       "<div class= 'col-12 jmcl11' id='started'><div class='row jmcl2 wapapa'><h4 class='awes'>Awesome!! you've activated the CRPC test</h4><P id='ppson'>(Color Randomizer Path Creator)</p><h6 class='tinfo' id='HIW'>HOW IT WORKS<h6></div><div></div>"
