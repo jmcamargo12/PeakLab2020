@@ -3,14 +3,13 @@ body {
 }
 
 .golazo9 {
-  width: 36%;
+  width: 200px;
   background-image: url(Images/points.gif);
 }
 .golazo9:hover {
   cursor: pointer;
   filter: invert(1);
-
-  width: 100px;
+  width: 200px;
   border-radius: 99%;
   background-image: url(Images/points.gif);
 }
@@ -24,8 +23,16 @@ body > div > div > div.col-sm.golazo9 > img {
 }
 
 .founder {
-  color: white;
-  float: right;
-  background: #0f0ff6;
+      margin-left: 999px;
+    margin-top: 249px;
+  color: black
+
+  
   font-family: MONOSPACE;
+}
+
+body > div > div > div.col-sm.golazo9 > a > img {
+  width: 409px;
+  margin-left: 485px;
+  margin-top: 144px;
 }

@@ -1,18 +1,20 @@
 body {
-  background: black;
-  background-color: black;
+  background-color: #ffffff;
+  background-image: url(https://www.transparenttextures.com/patterns/bright-squares.png);
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .a {
-  margin: 0 auto;
-
   background-color: black;
+  height: 160px;
+  margin: 0 auto;
 }
 
 .logo {
-  margin-top: 131px;
+  filter: drop-shadow(4px 6px 3px black);
+  margin-top: 86px;
   margin-left: 56px;
-  width: 134px;
+  width: 140px;
 }
 
 .b {
@@ -53,9 +55,9 @@ body {
   box-sizing: border-box;
 } */
 .container {
-  background-color: rgba(65, 60, 60, 0.44);
-
-  border-radius: 45%;
+  background-color: rgba(65, 60, 60, 0.41);
+  border-radius: 1%;
+  border-top-right-radius: 6%;
 }
 
 #panel
@@ -94,20 +96,23 @@ body > div.container > div.row.a > div.col-sm-3.slogan > div {
   border-bottom-right-radius: 70%;
   background-color: hsl(80, 61%, 50%, 0.03);
   height: 70%;
-  margin-left: 40px;
-  margin-top: 75px;
+  margin-left: 33px;
+  margin-top: 20px;
 }
 
 #mbar1 {
-  color: aqua;
+  filter: drop-shadow(3px 6px 9px black);
+  color: black;
   margin-top: -50px;
 }
 
 #mychild {
-  color: aqua;
+  filter: drop-shadow(3px 6px 9px black);
+  color: black;
 }
 #mbar {
-  color: aqua;
+  filter: drop-shadow(3px 6px 9px black);
+  color: black;
   margin-top: -21px;
 }
 body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
@@ -132,6 +137,7 @@ body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
 }
 
 #panela {
+  filter: drop-shadow(4px 6px 3px black);
   display: none;
 }
 
@@ -161,6 +167,10 @@ body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
 #panel {
   color: white;
   display: none;
+
+  filter: drop-shadow(2px 4px 6px black);
+  display: block;
+  border-bottom-left-radius: 109%;
 }
 
 .tt {
@@ -205,11 +215,11 @@ tt {
 
 #tourOptionTwo {
   cursor: pointer;
-  filter: contrast(0.3);
+  filter: contrast(0.02);
 }
 #tourOptionThree {
   cursor: pointer;
-  filter: contrast(0.6);
+  filter: contrast(0.02);
 }
 
 #BigOne {
@@ -223,6 +233,7 @@ tt {
 }
 
 .Two {
+  filter: drop-shadow(13px 11px 17px black);
   margin-top: 60px;
 }
 
@@ -795,20 +806,22 @@ tt {
 }
 
 #accordion > div:nth-child(1) {
-  background: black;
+  background: #00000059;
 }
 #accordion > div:nth-child(2) {
-  background: black;
+  background: #00000059;
 }
 #accordion > div:nth-child(3) {
-  background: black;
+  background: #00000059;
 }
 .card-body {
-  background: black;
+  background: #00000082;
+  filter: drop-shadow(2px 4px 6px black);
 }
 .card-body:hover {
   background-color: wheat;
   text-align: end;
+  filter: drop-shadow(2px 4px 6px black);
 
   background: black;
 }
