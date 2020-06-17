@@ -10,9 +10,14 @@ body {
   margin: 0 auto;
 }
 
+body > div.container > div.row.a {
+  margin-top: 29px;
+  height: 93px;
+}
+
 .logo {
   filter: drop-shadow(4px 6px 3px black);
-  margin-top: 86px;
+  margin-top: 14px;
   margin-left: 56px;
   width: 140px;
 }
@@ -97,22 +102,22 @@ body > div.container > div.row.a > div.col-sm-3.slogan > div {
   background-color: hsl(80, 61%, 50%, 0.03);
   height: 70%;
   margin-left: 33px;
-  margin-top: 20px;
+  margin-top: -45px;
 }
 
 #mbar1 {
   filter: drop-shadow(3px 6px 9px black);
-  color: black;
+  color: white;
   margin-top: -50px;
 }
 
 #mychild {
   filter: drop-shadow(3px 6px 9px black);
-  color: black;
+  color: white;
 }
 #mbar {
   filter: drop-shadow(3px 6px 9px black);
-  color: black;
+  color: white;
   margin-top: -21px;
 }
 body > div.container > div.row.a > div.col-sm-3.slogan > h6 {
@@ -292,7 +297,7 @@ tt {
   cursor: pointer;
   font-family: monospace;
   text-align: center;
-  color: yellowgreen;
+  color: blueviolet;
 }
 .slamdunk2 {
   font-size: small;
@@ -302,11 +307,11 @@ tt {
 }
 .slamdunk2:hover {
   cursor: pointer;
-  font-size: small;
+  font-size: medium;
 
   font-family: monospace;
   text-align: center;
-  color: yellowgreen;
+  color: blueviolet;
 }
 
 #tres {
