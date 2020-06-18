@@ -199,10 +199,11 @@ html {
   border: solid 1px rgb(255, 0, 0, 0.04);
 }
 .shh:hover {
+  filter: invert();
   float: left;
   height: 11px;
   width: 11px;
-  border: solid 1.3px rgb(255, 0, 0, 0.2);
+  border: solid 3px rgb(255, 0, 0, 0.4);
 }
 
 .shhresult #yessir {
