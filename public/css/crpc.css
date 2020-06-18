@@ -661,6 +661,10 @@ body
   border: 12px solid white;
 }
 
+.change {
+  float: left;
+}
+
 #proc9 {
   /* margin-top: 112px; */
   float: left;
