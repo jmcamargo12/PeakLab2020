@@ -4,6 +4,86 @@ body {
   /* filter: drop-shadow(102px 135px 45px black); */
   filter: drop-shadow(92px 68px 59px black);
   background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+}
+
+body > div:nth-child(3) > section > div.container.www {
+  background: none;
+  color: white;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(1)
+  > div.col-4.col-md-2 {
+  margin-top: 46px;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(1)
+  > div.col-8.col-md-10 {
+  padding: 28px;
+  color: white;
+  background: #00000045;
+  height: 169px;
+  margin-top: 99px;
+  padding: 2;
+  font-size: larger;
+  border: 1px solid #00ffff57;
+  border-top-right-radius: 90%;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(2)
+  > div.col-6.col-md-4 {
+  background-image: url(/Images/profileme.png);
+  height: 300px;
+  /* background: #00ffff36; */
+  border: 10px solid #080303;
+  /* background-size: cover; */
+  background-position: -127px -46px;
+  border-radius: 9%;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(2)
+  > div.col-12.col-md-8 {
+  font-family: monospace;
+  font-size: xx-large;
+  overflow-y: scroll;
+  height: 300px;
+  background: #00ffff12;
+  padding: 21px;
+  text-align: left;
+}
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(2)
+  > div.col-12.col-md-8::-webkit-scrollbar {
+  display: none;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div.container.www
+  > div:nth-child(3)
+  > div:nth-child(1) {
+  height: 261px;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .a {
@@ -30,6 +110,20 @@ body > div.container > div.row.a {
 
 #ttt {
   text-align: end;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #857e7e;
+  border-radius: 4px;
+  transition: 0.5s;
+  outline: none;
+  background-color: rgba(39, 41, 40, 0.212);
+  color: #857e7e;
+  font-size: 14px;
 }
 
 .ta {
@@ -108,9 +202,17 @@ body > div.container > div.row.a > div.col-sm-3.slogan > div {
 }
 
 #mbar1 {
+  cursor: pointer;
   filter: drop-shadow(3px 6px 9px black);
   color: white;
   margin-top: -50px;
+}
+#mbar1:hover {
+  cursor: pointer;
+  filter: drop-shadow(3px 6px 9px black);
+  color: white;
+  margin-top: -50px;
+  font-weight: 600;
 }
 
 #mychild {
@@ -3103,4 +3205,33 @@ tt {
 
 .switch {
   height: 520px;
+}
+
+body
+  > div:nth-child(3)
+  > section
+  > div
+  > div:nth-child(3)
+  > div:nth-child(2)
+  > img {
+  width: 716px;
+  /* padding: 38px; */
+  margin-top: 35px;
+  margin-left: -42px;
+}
+body
+  > div:nth-child(3)
+  > section
+  > div
+  > div:nth-child(3)
+  > div:nth-child(1)
+  > img {
+  padding: 22px;
+  filter: invert(0.8);
+  width: 630px;
+  margin-top: 12px;
+  margin-left: -26px;
+  border-bottom-left-radius: 90%;
+  border: 1 px solid #00ffff;
+  opacity: 45%;
 }
