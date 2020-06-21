@@ -459,7 +459,7 @@ tt {
 }
 
 #we {
-  color: teal;
+  color: white;
 }
 #we:hover {
   border-radius: 9%;
@@ -469,7 +469,7 @@ tt {
   font-size: 22px;
 }
 #gather {
-  color: teal;
+  color: white;
 }
 #gather:hover {
   border-radius: 9%;
@@ -478,7 +478,7 @@ tt {
   font-size: 25px;
 }
 #your {
-  color: teal;
+  color: white;
 }
 #your:hover {
   border-radius: 9%;
@@ -488,7 +488,7 @@ tt {
   font-size: 28px;
 }
 #info {
-  color: teal;
+  color: white;
 }
 #info:hover {
   border-radius: 9%;
@@ -3291,3 +3291,5 @@ body
 body > div.container.third > div.contact-me > div > input.message{    filter: invert(1);
     color: white;
     font-family: monospace;}
+
+       
