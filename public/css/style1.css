@@ -3287,11 +3287,7 @@ body
     font-family: monospace;
 }
 
-.message{
 
-  filter:brightness(2);
-
-    font-family: monospace;
-}
-
-body > div.container.third > div.contact-me > div > input.message{color:black}
+body > div.container.third > div.contact-me > div > input.message{    filter: invert(1);
+    color: white;
+    font-family: monospace;}
