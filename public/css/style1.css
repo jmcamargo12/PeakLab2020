@@ -3261,7 +3261,8 @@ body > div.container.third > div:nth-child(1) > h6{  margin-left: 927px;
     font-size: 28px;
     font-weight: 200;}
 
-body > div.container.third > h1{font-weight:50;
+body > div.container.third > h1{ font-weight: 400;
+    filter: brightness(0.5);
 font-size:xx-large}
 
 body

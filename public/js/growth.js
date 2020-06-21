@@ -26,6 +26,14 @@ $("#send9999").click(function () {
 
     $.post("/api/todis", userInfo9);
   }
+
+  confirm("Message received, we will get back to you very shortly. Thank You")
+   $("html,body").animate(
+    {
+      scrollTop: $(".first").offset().top,
+    },
+    "slow"
+  );
 });
 
 $("#mbar1").click(function () {
