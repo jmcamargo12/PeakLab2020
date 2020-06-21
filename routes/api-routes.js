@@ -225,13 +225,39 @@ module.exports = function (app) {
       });
   });
 
-  app.get("/api/todos/:email", function(req, res) {
+  app.get("/api/todos/:email", function (req, res) {
     console.log(req.body);
     // findAll returns all entries for a table when used with no options
-    db.dynamic_analytic.findOne({ where: {Email: req.params.email } }).then(function(dbTodo) {
-      // We have access to the todos as an argument inside of the callback function
-      res.json(dbTodo);
-    });
+    db.dynamic_analytic
+      .findOne({ where: { Email: req.params.email } })
+      .then(function (dbTodo) {
+        // We have access to the todos as an argument inside of the callback function
+        res.json(dbTodo);
+      });
   });
 
+  app.post("/api/todis", function (req, res) {
+    console.log(req.body);
+
+    // create takes an argument of an object describing the item we want to
+    // insert into our table. In this case we just we pass in an object with a text
+    // and complete property (req.body)
+
+    // create takes an argument of an object describing the item we want to
+    // insert into our table. In this case we just we pass in an object with a text
+    // and complete property (req.body)
+
+    db.quote
+      .create({
+        id: req.body.id,
+        ClientName: req.body.ClientName,
+
+        ClientEmail: req.body.ClientEmail,
+        Message: req.body.Message,
+      })
+      .then(function (dbquote) {
+        // We have access to the new todo as an argument inside of the callback function
+        res.json(dbquote);
+      });
+  });
 };

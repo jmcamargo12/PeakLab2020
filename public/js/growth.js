@@ -1,31 +1,46 @@
-// function insertTodo(event) {
-//   var newCharacter = {
-//     UserName: "moi",
-//     Shape: "awesome",
-//     Gender: 1,
-//     DynamismAnalytics: "yes",
-//     AGE: 23,
-//     FirstColor: "yes",
-//     BackgroundColor: "yes",
-//     Controls: "yes",
-//     Upcount: 0,
-//     Downcount: 2,
-//     Rightcount: 2,
-//     Leftcount: 4,
-//     Dominance: "yes",
-//     InitialPath: "yes",
-//     LastShape: "yes",
-//     LastShapeColor: "yes",
-//     FullPathPattern: "yes",
-//   };
+// Lets to work!!//
+$("#send9999").click(function () {
+  var name9 = $("#name9").val();
+  localStorage.setItem("ClientName", name9);
+  var email9 = $("#email9").val();
+  localStorage.setItem("ClientEmail", email9);
+  var message999 = $(".message").val();
+  localStorage.setItem("Message", message999);
 
-//   $.post("/api/todos", newCharacter);
-// }
+
+
+  if (name9 === "") {
+    alert(
+      "Name value required for field Name (You can use a nickname if you'd like)"
+    );
+  } else if (email9 === "") {
+    alert(
+      "Email value required for field Name (Email is not used, we just verify your not a web-bot)"
+    );
+  } else {
+    var userInfo9 = {
+      ClientName: name9,
+      ClientEmail: email9,
+      Message: message999,
+    };
+
+    $.post("/api/todis", userInfo9);
+  }
+});
 
 $("#mbar1").click(function () {
   $("html,body").animate(
     {
       scrollTop: $(".second").offset().top,
+    },
+    "slow"
+  );
+});
+
+$("#mbar").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".third").offset().top,
     },
     "slow"
   );
@@ -1903,7 +1918,7 @@ $(".opt3").click(function () {
 
           $(".sinst").hover(function () {
             $(".sinst").replaceWith(
-              "<div class='col-12 sinst'><h6 id='vav99999'><div class='col-12 sresultsinstructions'><p><bold>Click on the image</bold> to transition forward, and choose your favorite path!</p><hr><p>  Have fun and see what you discover about your self-selection making. After you start, you will be  given more choice selections, personally aligned to your initial dominant choices. Evaluate yourself and compare your results with others.</p></div>"
+              "<div class='col-12 sinst'><h6 id='vav99999'><div class='col-12 sresultsinstructions'><p><bold>Click on the Suare Image to the Left</bold> to transition forward, and choose your favorite path!</p><hr><p>  Have fun and see what you discover about your self-selection making. After you start, you will be  given more choice selections, personally aligned to your initial dominant choices. Evaluate yourself and compare your results with others.</p></div>"
             );
           });
 
@@ -1924,7 +1939,7 @@ $(".opt3").click(function () {
 
           $(".sinst").hover(function () {
             $(".sinst").replaceWith(
-              "<div class='col-12 sinst'><h6 id='vav99999'><div class='col-12 sresultsinstructions'><p><bold>Click on the image</bold> to transition forward, and choose your favorite path!</p><hr><p>  Have fun and see what you discover about your self-selection making. After you start, you will be  given more choice selections, personally aligned to your initial dominant choices. Evaluate yourself and compare your results with others.</p></div>"
+              "<div class='col-12 sinst'><h6 id='vav99999'><div class='col-12 sresultsinstructions'><p><bold>Click on the Triangle image to the Left</bold> to transition forward, and choose your favorite path!</p><hr><p>  Have fun and see what you discover about your self-selection making. After you start, you will be  given more choice selections, personally aligned to your initial dominant choices. Evaluate yourself and compare your results with others.</p></div>"
             );
           });
 
