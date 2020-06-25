@@ -1,4 +1,47 @@
 // Lets to work!!//
+$(".photography").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/photography.mp4' type='video/mp4'/></video>"
+  );
+});
+$(".rotoscope").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test919199roto' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/rotoscopefull.mp4' type='video/mp4'/></video>"
+  );
+});
+$(".models").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/models99.mp4' type='video/mp4'/></video>"
+  );
+});
+$(".animation").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/animation99.mp4' type='video/mp4'/></video>"
+  );
+});
+$(".drawingboard").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test91919999' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/Drawingboard.mp4' type='video/mp4'/></video>"
+  );
+});
+
+$(".logomotion").click(function () {
+  $("#pr94tim").replaceWith(
+    "<img style ='background-color:white;'class='test91919999bee' id='pr94tim' width='800' height='600' src='Images/beelogoanimationyes.gif'></img>"
+  );
+});
+
+$(".promos").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test91919999promo' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/videoproduction.mp4' type='video/mp4'/></video>"
+  );
+});
+$(".webdevelopment").click(function () {
+  $("#pr94tim").replaceWith(
+    "<video class='test91919999promo' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/webdevelopment.mp4' type='video/mp4'/></video>"
+  );
+});
+
 $("#send9999").click(function () {
   var name9 = $("#name9").val();
   localStorage.setItem("ClientName", name9);
@@ -6,8 +49,6 @@ $("#send9999").click(function () {
   localStorage.setItem("ClientEmail", email9);
   var message999 = $(".message").val();
   localStorage.setItem("Message", message999);
-
-
 
   if (name9 === "") {
     alert(
@@ -27,8 +68,8 @@ $("#send9999").click(function () {
     $.post("/api/todis", userInfo9);
   }
 
-  confirm("Message received, we will get back to you very shortly. Thank You")
-   $("html,body").animate(
+  confirm("Message received, we will get back to you very shortly. Thank You");
+  $("html,body").animate(
     {
       scrollTop: $(".first").offset().top,
     },
