@@ -3304,6 +3304,7 @@ background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
     width: 1002px;
 }
 .portfolio94mesoon:hover{
+   
       filter: drop-shadow(1);
 background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
     border: radius 9%;
@@ -3314,36 +3315,61 @@ background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
 
 body > div:nth-child(2){background-color: none;}
 
-.test91919{margin-top: -611px;
+.test91919{
+    margin-top: -445px;
     z-index: -5;
     position: relative;
-    width: 74%;
-    margin-left: 165px;
+    width: 64%;
+    margin-left: 264px;
     border-radius: 21%;
+    height: 66%;
 }
 
 
-.test919199{
- border-bottom-right-radius: 59%;
-    border-top-right-radius: 6%;
-    border-bottom-left-radius: 39%;
-    height: -webkit-fill-available;
-        margin-top: -682px;
-    z-index: -5;
-    position: relative;
-    width: 92%;
-    margin-left: 69px;
-    border-radius: -9%;}
+
+
 .test919199roto{
 
         border-bottom-right-radius: 59%;
     border-top-right-radius: 36%;
  
-    margin-top: -655px;
+ height: 450px;
+    margin-top: -500px;
+    border-bottom-right-radius: 59%;
+    border-top-right-radius: 36%;
     z-index: -5;
     position: relative;
-    width: 92%;
-    margin-left: 69px;;}
+    width: 58%;
+    margin-left: 262px;
+    border-radius: -9%;}
+
+    .webdevelopment{width: 1350px;
+    margin-top: -538px;
+  font-family: monospace; font-size: large;}
+
+  
+    .webdevelopment:hover{
+      cursor: pointer;
+      width: 1350px;
+      background-color: black;
+    margin-top: -538px;
+  font-family: monospace; font-size: large;
+font-weight: 900; color: yellowgreen;}
+
+
+
+body > div:nth-child(3) > section > div:nth-child(2) > div.photography.a91 > p{       margin-top: -540px;}
+
+.rotator9{    margin-left: 173px;
+    width: 900px;
+    /* filter: opacity(0.8); */
+    border-radius: 22%;
+    border-bottom-right-radius: 40%;
+    margin-top: 49px;
+  filter: opacity(1);
+   transition-property: filter;
+  transition-duration: 1.4s;
+  transition-delay: 0.1s;}    
 
 .rotator9:hover{    filter: opacity(0.29);
 ;}
@@ -3353,42 +3379,46 @@ body > div:nth-child(2){background-color: none;}
 border-bottom-right-radius: 59%;
     border-top-right-radius: 6%;
     border-bottom-left-radius: 39%;
-    margin-top: -682px;
+  height: 450px;
+    margin-top: -500px;
+    border-bottom-right-radius: 59%;
+    border-top-right-radius: 36%;
     z-index: -5;
     position: relative;
-    width: 92%;
-    margin-left: 69px;;}
+    width: 58%;
+    margin-left: 262px;
+    border-radius: -9%;}
 .test91919999{
       border-bottom-right-radius: 59%;
     border-top-right-radius: 36%;
-    height: 598px;
-        margin-top: -682px;
+height: 450px;
+    margin-top: -500px;
+    border-bottom-right-radius: 59%;
+    border-top-right-radius: 36%;
     z-index: -5;
     position: relative;
-    width: 92%;
-    margin-left: 69px;
+    width: 58%;
+    margin-left: 262px;
     border-radius: -9%;}
 
     .test91919999bee{
- 
-    height: 527px;
-    margin-top: -649px;
+     width: 453px;
+    border-radius: 35%;
+    height: 364px;
+    margin-top: -528px;
     z-index: -5;
     position: relative;
-    width: 92%;
-    margin-left: 69px;
-    border-radius: 10%;
-  background-color: white;}
+    margin-left: 325px;}
 
     .test919199{
-      border-bottom-right-radius: 59%;
+     height: 450px;
+    margin-top: -500px;
+    border-bottom-right-radius: 59%;
     border-top-right-radius: 36%;
-    height: -webkit-fill-available;
-        margin-top: -682px;
     z-index: -5;
     position: relative;
-    width: 92%;
-    margin-left: 69px;
+    width: 58%;
+    margin-left: 262px;
     border-radius: -9%;}
 
     .a91{color:white}
