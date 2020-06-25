@@ -1,29 +1,35 @@
-// Lets to work!!//
+// Lets do work!!//
 $(".photography").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/photography.mp4' type='video/mp4'/></video>"
+       "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/e8pXYbYr0-U?playlist=e8pXYbYr0-U?&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+
 $(".rotoscope").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test919199roto' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/rotoscopefull.mp4' type='video/mp4'/></video>"
+    "<iframe class='test919199roto' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/fLbioMI1FlI?playlist=fLbioMI1FlI&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+
 $(".models").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/models99.mp4' type='video/mp4'/></video>"
+      "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/IEr9U809XLw?playlist=IEr9U809XLw?&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+
 $(".animation").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test919199' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/animation99.mp4' type='video/mp4'/></video>"
+    "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/5dnF-VhnG4s?playlist=5dnF-VhnG4s?&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+
 $(".drawingboard").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test91919999' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/Drawingboard.mp4' type='video/mp4'/></video>"
+    "<iframe class='test91919999' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/Nh6yjUuKjwM?playlist=Nh6yjUuKjwM&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+
+
 
 $(".logomotion").click(function () {
   $("#pr94tim").replaceWith(
@@ -33,12 +39,14 @@ $(".logomotion").click(function () {
 
 $(".promos").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test91919999promo' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/videoproduction.mp4' type='video/mp4'/></video>"
+    "<iframe class='test91919999promo' id='pr94tim' width='800' height='600' src=https://www.youtube.com/embed/49Zupfrtnt4?playlist=49Zupfrtnt4&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
+
+
 });
 $(".webdevelopment").click(function () {
   $("#pr94tim").replaceWith(
-    "<video class='test91919999promo' id='pr94tim' width='800' height='600' autoplay loop muted <source src='Images/webdevelopment.mp4' type='video/mp4'/></video>"
+    "<iframe class='test91919999promo' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/o3ZtUbgfBZA?playlist=o3ZtUbgfBZA&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0' frameborder='0' allow='mute;loop;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
 

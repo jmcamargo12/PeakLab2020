@@ -3303,6 +3303,14 @@ background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
 
     width: 1002px;
 }
+.portfolio94mesoon:hover{
+      filter: drop-shadow(1);
+background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
+    border: radius 9%;
+    height: 680px;
+
+    width: 1002px;
+}
 
 body > div:nth-child(2){background-color: none;}
 
@@ -3316,8 +3324,9 @@ body > div:nth-child(2){background-color: none;}
 
 
 .test919199{
-      border-bottom-right-radius: 59%;
-    border-top-right-radius: 36%;
+ border-bottom-right-radius: 59%;
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 39%;
     height: -webkit-fill-available;
         margin-top: -682px;
     z-index: -5;
@@ -3336,13 +3345,14 @@ body > div:nth-child(2){background-color: none;}
     width: 92%;
     margin-left: 69px;;}
 
-.rotator9:hover{    filter: opacity(0.75);}
+.rotator9:hover{    filter: opacity(0.29);
+;}
 
 .test91919999promo{
 
-        border-bottom-right-radius: 59%;
-    border-top-right-radius: 36%;
- 
+border-bottom-right-radius: 59%;
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 39%;
     margin-top: -682px;
     z-index: -5;
     position: relative;
@@ -3360,15 +3370,14 @@ body > div:nth-child(2){background-color: none;}
     border-radius: -9%;}
 
     .test91919999bee{
-    border-bottom-right-radius: 59%;
-    border-top-right-radius: 36%;
+ 
     height: 527px;
     margin-top: -649px;
     z-index: -5;
     position: relative;
     width: 92%;
     margin-left: 69px;
-    border-radius: -9%;
+    border-radius: 10%;
   background-color: white;}
 
     .test919199{
