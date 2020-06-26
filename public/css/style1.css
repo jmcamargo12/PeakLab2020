@@ -3297,6 +3297,8 @@ body > div.container.third > div.contact-me > div > input.message{    filter: in
 
 
 .portfolio94mesoon{
+      margin-left: -308px;
+
 background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
     border: radius 9%;
     height: 680px;
@@ -3304,10 +3306,12 @@ background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
     width: 1002px;
 }
 .portfolio94mesoon:hover{
+      margin-left: -308px;
+
    
       filter: drop-shadow(1);
 background-image: url(https://www.youtube.com/watch?v=ibOWaVsl3m4);
-    border: radius 9%;
+    border: radius 99%;
     height: 680px;
 
     width: 1002px;
@@ -3342,19 +3346,19 @@ body > div:nth-child(2){background-color: none;}
     width: 58%;
     margin-left: 262px;
     border-radius: -9%;}
-
+/* 
     .webdevelopment{width: 1350px;
-    margin-top: -538px;
+    margin-top: -619px;
   font-family: monospace; font-size: large;}
 
-  
+
     .webdevelopment:hover{
       cursor: pointer;
       width: 1350px;
       background-color: black;
-    margin-top: -538px;
+    margin-top: -619px;
   font-family: monospace; font-size: large;
-font-weight: 900; color: yellowgreen;}
+font-weight: 900; color: yellowgreen;} */
 
 
 
@@ -3422,3 +3426,218 @@ height: 450px;
     border-radius: -9%;}
 
     .a91{color:white}
+
+    .ml9 {
+   
+
+      margin-top:-561px;
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml9:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;}
+   
+
+
+  
+  .ml99 {
+
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml99 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml99 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml99:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;}
+  
+  .ml999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+  .ml9999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml9999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml9999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+  .ml99999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml99999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml99999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml99999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+  .ml999999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml999999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml999999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml999999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+  .ml9999999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml9999999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9999999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml9999999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+  .ml99999999 {
+ 
+  position: relative;
+  font-weight: 200;
+  font-size: large;
+}
+
+.ml99999999 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml99999999 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml99999999:hover{cursor: pointer;
+  font-weight: 600;
+  color: yellowgreen;
+}
+.umhumhum{margin-left: 691px; filter:drop-shadow()}

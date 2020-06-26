@@ -27,7 +27,6 @@ $(".drawingboard").click(function () {
   $("#pr94tim").replaceWith(
     "<iframe class='test91919999' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/Nh6yjUuKjwM?playlist=Nh6yjUuKjwM&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0&modestbranding=1&autohide=1' frameborder='0' allow='mute;loop;accelerometer; autoplay;controls;showinfo; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
-
 });
 
 $(".logomotion").click(function () {
@@ -46,7 +45,6 @@ $(".webdevelopment").click(function () {
     "<iframe class='test91919999promo' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/o3ZtUbgfBZA?playlist=o3ZtUbgfBZA&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0&modestbranding=1&autohide=1' frameborder='0' allow='mute;loop;accelerometer; autoplay;controls;showinfo; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
-
 
 $("#send9999").click(function () {
   var name9 = $("#name9").val();
@@ -91,6 +89,22 @@ $("#mbar1").click(function () {
     "slow"
   );
 });
+$("#contactme49").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".third").offset().top,
+    },
+    "slow"
+  );
+});
+$("#portfolio4mybaby").click(function () {
+  $("html,body").animate(
+    {
+      scrollTop: $(".fourth").offset().top,
+    },
+    "slow"
+  );
+});
 
 $("#mbar").click(function () {
   $("html,body").animate(
@@ -100,6 +114,183 @@ $("#mbar").click(function () {
     "slow"
   );
 });
+
+var textWrapper = document.querySelector(".ml9 .letters");
+textWrapper.innerHTML = textWrapper.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml9 .letter",
+    scale: [0, 1],
+    duration: 1500,
+    elasticity: 600,
+    delay: (el, i) => 45 * (i + 1),
+  })
+  .add({
+    targets: ".ml9",
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 19500,
+  });
+var textWrapper2 = document.querySelector(".ml99 .letters");
+textWrapper2.innerHTML = textWrapper2.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml99 .letter",
+    scale: [0, 1],
+    duration: 1900,
+    elasticity: 400,
+    delay: (el, i) => 40 * (i + 1),
+  })
+  .add({
+    targets: ".ml99",
+    opacity: 0,
+    duration: 850,
+    easing: "easeOutExpo",
+    delay: 22690,
+  });
+var textWrapper3 = document.querySelector(".ml999 .letters");
+textWrapper3.innerHTML = textWrapper3.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml999 .letter",
+    scale: [0, 1],
+    duration: 800,
+    elasticity: 1000,
+    delay: (el, i) => 55 * (i + 1),
+  })
+  .add({
+    targets: ".ml999",
+    opacity: 0,
+    duration: 1150,
+    easing: "easeOutExpo",
+    delay: 24800,
+  });
+var textWrapper4 = document.querySelector(".ml9999 .letters");
+textWrapper4.innerHTML = textWrapper4.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml9999 .letter",
+    scale: [0, 1.2],
+    duration: 1200,
+    elasticity: 100,
+    delay: (el, i) => 39 * (i + 1),
+  })
+  .add({
+    targets: ".ml9999",
+    opacity: 0,
+    duration: 1111,
+    easing: "easeOutExpo",
+    delay: 15000,
+  });
+var textWrapper5 = document.querySelector(".ml99999 .letters");
+textWrapper5.innerHTML = textWrapper5.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml99999 .letter",
+    scale: [0, 1.2],
+    duration: 800,
+    elasticity: 5000,
+    delay: (el, i) => 34 * (i + 1),
+  })
+  .add({
+    targets: ".ml99999",
+    opacity: 0,
+    duration: 2000,
+    easing: "easeOutExpo",
+    delay: 23500,
+  });
+var textWrapper6 = document.querySelector(".ml999999 .letters");
+textWrapper6.innerHTML = textWrapper6.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml999999 .letter",
+    scale: [0, 1.2],
+    duration: 800,
+    elasticity: 750,
+    delay: (el, i) => 41 * (i + 1),
+  })
+  .add({
+    targets: ".ml999999",
+    opacity: 0,
+    duration: 1500,
+    easing: "easeOutExpo",
+    delay: 13900,
+  });
+var textWrapper7 = document.querySelector(".ml9999999 .letters");
+textWrapper7.innerHTML = textWrapper7.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml9999999 .letter",
+    scale: [0, 1.2],
+    duration: 600,
+    elasticity: 2100,
+    delay: (el, i) => 43 * (i + 1),
+  })
+  .add({
+    targets: ".ml9999999",
+    opacity: 0,
+    duration: 750,
+    easing: "easeOutExpo",
+    delay: 10000,
+  });
+var textWrapper8 = document.querySelector(".ml99999999 .letters");
+textWrapper8.innerHTML = textWrapper8.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml99999999 .letter",
+    scale: [0, 1.2],
+    duration: 1000,
+    elasticity: 1300,
+    delay: (el, i) => 19 * (i + 1),
+  })
+  .add({
+    targets: ".ml99999999",
+    opacity: 0,
+    duration: 911,
+    easing: "easeOutExpo",
+    delay: 33330,
+  });
 
 $("#flipa").click(function (b9) {
   $("#BigTwo").replaceWith(
