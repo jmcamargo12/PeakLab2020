@@ -4,6 +4,11 @@ $(".photography").click(function () {
     "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/e8pXYbYr0-U?playlist=e8pXYbYr0-U&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0&modestbranding=1&autohide=1' frameborder='0' allow='mute;loop;accelerometer; autoplay;controls;showinfo; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
   );
 });
+$(".data").click(function () {
+  $("#pr94tim").replaceWith(
+    "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/4UPm1DPJA0c?playlist=4UPm1DPJA0c&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0&modestbranding=1&autohide=1' frameborder='0' allow='mute;loop;accelerometer; autoplay;controls;showinfo; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  );
+});
 
 $(".rotoscope").click(function () {
   $("#pr94tim").replaceWith(
@@ -136,6 +141,28 @@ anime
     duration: 1000,
     easing: "easeOutExpo",
     delay: 19500,
+  });
+var textWrapper9 = document.querySelector(".ml199 .letters");
+textWrapper9.innerHTML = textWrapper9.textContent.replace(
+  /\S/g,
+  "<span class='letter'>$&</span>"
+);
+
+anime
+  .timeline({ loop: true })
+  .add({
+    targets: ".ml199 .letter",
+    scale: [0, 1],
+    duration: 1290,
+    elasticity: 9650,
+    delay: (el, i) => 45 * (i + 1),
+  })
+  .add({
+    targets: ".ml199",
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 9500,
   });
 var textWrapper2 = document.querySelector(".ml99 .letters");
 textWrapper2.innerHTML = textWrapper2.textContent.replace(
