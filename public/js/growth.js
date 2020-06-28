@@ -1,4 +1,11 @@
+// Health of the page, organoic Visit tracker/
+
+$("body > div > div > div.col-sm.golazo9 > a > img").click(function () {
+  $.post("/api/todiis");
+});
+
 // Lets do work!!//
+
 $(".photography").click(function () {
   $("#pr94tim").replaceWith(
     "<iframe class='test919199' id='pr94tim' width='800' height='600' src='https://www.youtube.com/embed/e8pXYbYr0-U?playlist=e8pXYbYr0-U&loop=1;rel=0&amp&autoplay=1&loop=1&autopause=0&mute=1&showinfo=0&controls=0&modestbranding=1&autohide=1' frameborder='0' allow='mute;loop;accelerometer; autoplay;controls;showinfo; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"

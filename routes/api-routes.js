@@ -260,4 +260,24 @@ module.exports = function (app) {
         res.json(dbquote);
       });
   });
+  app.post("/api/todiis", function (req, res) {
+    console.log(req.body);
+
+    // create takes an argument of an object describing the item we want to
+    // insert into our table. In this case we just we pass in an object with a text
+    // and complete property (req.body)
+
+    // create takes an argument of an object describing the item we want to
+    // insert into our table. In this case we just we pass in an object with a text
+    // and complete property (req.body)
+
+    db.visitor
+      .create({
+        id: req.body.id,
+      })
+      .then(function (dbquote1) {
+        // We have access to the new todo as an argument inside of the callback function
+        res.json(dbquote1);
+      });
+  });
 };
